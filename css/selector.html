@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div + p{
+            color : red;
+        }
+        a:hover{
+            background-color: red;
+        }
+        a:active{
+            background-color: green;
+        }
+
+        h4{
+            background-color: pink;
+        }
+        h4::marker{
+            background-color: red;
+        }
+        h4::selection{
+            background-color: grey;
+        }
+        li::marker{
+            color : red
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo deserunt assumenda, dignissimos perspiciatis nam illo placeat aliquam non maiores, itaque repellat! Cum nam possimus est incidunt sequi, harum maiores.</p>
+        <span>
+            <p>hello world</p>
+
+        </span>
+        <p>The Stepping Stone</p>
+    </div>
+    
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quos rerum aperiam nemo incidun.</p>
+    <p>hello</p>
+    <br />
+    <br />
+    <a href="#">Google</a>
+
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni natus cum commodi vero atque unde soluta modi maxime, ex temporibus aliquam porro, eaque sint aut nemo explicabo corporis laborum.</h4>
+
+    <ol>
+        <li>Indore</li>
+        <li>Indore</li>
+        <li>Indore</li>
+        <li>Indore</li>
+        <li>Indore</li>
+    </ol>
+</body>
+</html>
+<!-- 
+    selector :
+      
+    A. Simple Selector : name, id(#), class(.) 
+    b. Combinator : 
+            1. space ( )
+            2. child ( > )
+            3. adjacent ( + )
+            4. sibling ( ~ )
+
+    c. Pseduo
+        A. Pseduo Classes
+            :link, :visited, :hover, :active
+        
+        B. Pseduo Element
+            ::first-line, ::first-letter,
+            ::before, ::after, ::makter, 
+            ::selection
+
+        C. Pseduo Tag
+        :checked, :disabled, :empty, :enable, :first-child, :last-child, 
+        :nth-child(3), :nth-last-child(2)
+        :nth-child(event), :nth-child(odd)
+        
+        
+
+-->
