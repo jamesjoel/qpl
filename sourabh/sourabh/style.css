@@ -1,3 +1,16 @@
 .bg-theme{
-    background-color: aqua;
+    background-color: #FF9100;
+}
+.text-theme{
+    color:#FF9100;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-rad{
+    border-radius: 25px;
+}
+.btn-rad:hover {
+    background-color: #FF9100;
+    border-radius: 25px;
 }

@@ -14,21 +14,18 @@
       rel="stylesheet"
     />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
     <!-- Navigation  bar-->
-    <div class="bg-success text-white py-2">
-      <div class="container">
+    <div class="bg-theme text-white py-1">
+      <div class="container bg-theme">
         <div class="row justify-content-between align-items-center">
-          <div
-            class="col-md-6 d-flex flex-column flex-md-row align-items-center mb-2 mb-md-0"
-          >
-            <span class="me-md-3 mb-2 mb-md-0"
-              ><i class="bi bi-telephone"></i> +1235 2355 98</span
-            >
-            <span><i class="bi bi-envelope"></i> YOUREMAIL@EMAIL.COM</span>
-          </div>
-          <div class="col-md-6 text-center text-md-end">
+          <div class="col-md-4 d-flex flex-column flex-md-row align-items-center mb-2 mb-md-0"><span class="me-md-3 mb-2 mb-md-0"><i class="bi bi-telephone me-2"></i> +1235 2355 98</span></div>
+          <div class="col-md-4 d-flex flex-column flex-md-row align-items-center mb-2 mb-md-0"><span class="me-md-3 mb-2 mb-md-0"><i class="bi bi-envelope me-2"></i>YOUREMAIL@EMAIL.COM</span></div>
+            
+            
+          <div class="col-md-4 text-center text-md-end">
             3-5 BUSINESS DAYS DELIVERY & FREE RETURNS
           </div>
         </div>
@@ -37,7 +34,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand text-success" href="#">VegeFoods</a>
+        <a class="navbar-brand text-theme" href="#">VegeFoods</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,36 +48,38 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              <li class="nav-item"><a class="nav-link me-5" href="#">HOME</a></li>
+              <li class="nav-item"><a class="nav-link me-5" href="#">SHOP</a></li>
+              <li class="nav-item"><a class="nav-link me-5" href="#">ABOUT</a></li>
+              <li class="nav-item"><a class="nav-link me-5" href="#">BLOG</a></li>
+              <li class="nav-item"><a class="nav-link me-5" href="#">CONTACT<i class="fas fa-shopping-cart ms-5"></i> </a></li>
           </ul>
-        </div>
+      </div>      
       </div>
     </nav>
 
     <!-- Hero Section -->
     <div
-      class="bg-dark text-white text-center py-5 position-relative"
+      class="text-white text-center py-5 position-relative"
       style="
         background-image: url('images/bg_2.jpg');
         background-size: cover;
         background-position: center;
+        height: 500px; /* Adjust this value as needed */
       "
     >
       <div
         class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
       ></div>
       <div class="container py-5 position-relative">
-        <div class="position-relative">
-          <h1 class="display-4">100% Fresh & Organic Foods</h1>
-          <p class="lead">We Deliver Organic Vegetables & Fruits</p>
-          <a href="#" class="btn btn-success">View Details</a>
+        <div class="position-relative py-5">
+          <h1 class="display-4 pt-5">100% FRESH & ORGANIC FOODS</h1>
+          <p class="lead fs-7" style="letter-spacing: 6px; font-size: 10px;">WE DELIVER ORGANIC VEGETABLES & FRUITS</p>
+          <a href="#" class="btn bg-theme btn-lg btn-rad text-white">View Details</a>
         </div>
       </div>
     </div>
+
 
     <!-- Features Section -->
     <div class="container my-5">
@@ -122,7 +121,7 @@
                 style="height: 300px"
               />
               <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start p-0">
-                <h5 class="card-title bg-success text-white d-inline-block px-2 py-1 mb-0 ms-0">
+                <h5 class="card-title bg-theme text-white d-inline-block px-2 py-1 mb-0 ms-0">
                   Fruits
                 </h5>
               </div>
@@ -139,7 +138,7 @@
               />
               <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start p-0">
                 <h5
-                  class="card-title bg-success text-white d-inline-block px-2 py-1 mb-0 ms-0"
+                  class="card-title bg-theme text-white d-inline-block px-2 py-1 mb-0 ms-0"
                 >
                   Juices
                 </h5>
@@ -158,10 +157,10 @@
               style="height: 625px"
             />
             <div class="card-img-overlay">
-              <h1 class="text-success text-center mb-4">Vegetables</h1>
+              <h1 class="text-theme text-center mb-4">Vegetables</h1>
               <p class="text-center mb-4">Protect the health of every home</p>
               <div class="text-center mb-5">
-                <button class="btn btn-success">Shop now</button>
+                <button class="btn btn-theme">Shop now</button>
               </div>
             </div>
           </div>
@@ -179,7 +178,7 @@
               />
               <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start p-0">
                 <h5
-                  class="card-title bg-success text-white d-inline-block px-2 py-1 mb-0 ms-0"
+                  class="card-title bg-theme text-white d-inline-block px-2 py-1 mb-0 ms-0"
                 >
                   Vegetables
                 </h5>
@@ -196,7 +195,7 @@
               />
               <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start p-0">
                 <h5
-                  class="card-title bg-success text-white d-inline-block px-2 py-1 mb-0 ms-0"
+                  class="card-title bg-theme text-white d-inline-block px-2 py-1 mb-0 ms-0"
                 >
                   Dried
                 </h5>
@@ -209,23 +208,23 @@
 
     <!-- Products Section -->
     <div class="container mt-3">
-      <h1 class="text-success text-center mb-4">featured Products</h1>
+      <h1 class="text-theme text-center mb-4">featured Products</h1>
       <h2 class="text-center mb-4">Our Products</h2>
       <div class="row text-center">
         <div class="col-md-3 mb-4">
           <img src="images/product-1.jpg" alt="Dill Pepper" class="img-fluid" />
           <h5>Dill Pepper</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
         <div class="col-md-3 mb-4">
           <img src="images/product-2.jpg" alt="Strawberry" class="img-fluid" />
           <h5>Strawberry</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
         <div class="col-md-3 mb-4">
           <img src="images/product-3.jpg" alt="Green Beans" class="img-fluid" />
           <h5>Green Beans</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
         <div class="col-md-3 mb-4">
           <img
@@ -234,29 +233,29 @@
             class="img-fluid"
           />
           <h5>Purple Cabbage</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-3 mb-4">
           <img src="images/product-5.jpg" alt="Tomato" class="img-fluid" />
           <h5>Tomato</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
         <div class="col-md-3 mb-4">
           <img src="images/product-6.jpg" alt="Broccoli" class="img-fluid" />
           <h5>Broccoli</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
         <div class="col-md-3 mb-4">
           <img src="images/product-7.jpg" alt="Carrots" class="img-fluid" />
           <h5>Carrots</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
         <div class="col-md-3 mb-4">
           <img src="images/product-8.jpg" alt="Fruit Juice" class="img-fluid" />
           <h5>Fruit Juice</h5>
-          <p class="text-success">$120.00</p>
+          <p class="text-theme">$120.00</p>
         </div>
       </div>
     </div>
@@ -274,32 +273,32 @@
         <div class="row">
           <div class="col-md-6"></div>
           <div class="col-md-6 text-center text-md-start text-white">
-            <h3 class="text-success">Best Price For You</h3>
+            <h3 class="text-theme">Best Price For You</h3>
             <h2 class="text-black">Deal of the Day</h2>
             <p class="text-secondary">
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia
             </p>
-            <h2 class="text-success">Spinach</h2>
+            <h2 class="text-theme">Spinach</h2>
             <p class="text-secondary">
-              <span class="text-success">$10 </span> only $5
+              <span class="text-theme">$10 </span> only $5
             </p>
-            <a href="#" class="btn btn-success">Shop Now</a>
+            <a href="#" class="btn btn-theme">Shop Now</a>
             <div class="row mt-3">
               <div class="col-3 border-end">
-                <h2 class="text-success">-1726</h2>
+                <h2 class="text-theme">-1726</h2>
                 <p class="text-black">Days</p>
               </div>
               <div class="col-3 border-end">
-                <h2 class="text-success">01</h2>
+                <h2 class="text-theme">01</h2>
                 <p class="text-black">Hours</p>
               </div>
               <div class="col-3 border-end">
-                <h2 class="text-success">24</h2>
+                <h2 class="text-theme">24</h2>
                 <p class="text-black">Minutes</p>
               </div>
               <div class="col-3">
-                <h2 class="text-success">59</h2>
+                <h2 class="text-theme">59</h2>
                 <p class="text-black">Seconds</p>
               </div>
             </div>
@@ -309,7 +308,7 @@
     </div>
 
     <div class="container my-5">
-      <h1 class="text-success text-center mb-4">Testimony</h1>
+      <h1 class="text-theme text-center mb-4">Testimony</h1>
       <h2 class="text-center mb-4">Our Satisfied Customers</h2>
       <div class="row text-center">
         <div class="col-md-4 mb-4 border-end">
@@ -386,7 +385,7 @@
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <button class="btn bg-success text-white" type="submit">
+                <button class="btn bg-theme text-white" type="submit">
                   Search
                 </button>
               </form>
