@@ -1,0 +1,9 @@
+.card-lower {
+    margin-top: 3rem;
+}
+
+@media (max-width: 767.98px) {
+    .card-lower {
+        margin-top: 0;
+    }
+}
