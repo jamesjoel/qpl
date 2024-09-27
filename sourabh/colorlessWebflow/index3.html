@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colourless</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <style>
+    @media (max-width: 768px) {
+    
+    /* Hero image styling for mobile */
+    .hero-image {
+        width: 100%; /* Make the image scale to the width of its container */
+        height: auto; /* Maintain aspect ratio and adjust height automatically */
+        max-height: 245px; /* Set a maximum height if needed */
+    }
+
+    /* Custom padding for elements */
+    .custom-padding {
+        padding-top: 100px !important; /* Override the top padding specifically for mobile */
+    }
+}
+
+   </style>
+
+
+</head>
+
+<body>
+    <div class="bg-light">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light transparent-navbar sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav border p-2 rounded-5 px-5 bg-white">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle border p-2 bg-light rounded-5 px-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="d-none d-lg-block">
+                    <a class="btn btn-primary" href="#">Get Template</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container py-5 ">
+            <div class="row align-items-center firstsectrow">
+                <div class="col-lg-6  text-start text-lg-start mb-4 mb-lg-0">
+                    <span class="badge text-secondary border border-secondary mb-2">Colourless Update v0.1</span>
+                    <h1 class="display-4 fw-normal me-3">
+                        Intuitive Management with Colourless
+                    </h1>
+                    <p class="lead mb-4">
+                        Welcome to Colourless, the ultimate solution to streamline your workflow management. Our
+                        innovative dashboard brings simplicity and efficiency to your daily tasks.
+                    </p>
+                    <div class="card-body my-5 text-start d-flex flex-column flex-md-row gap-2 ">
+                        <a href="#" class="btn btn-light  px-5 my-1 border"
+                            style="background-color: #f8f9fa !important;">Read More <i
+                                class="bi bi-chevron-compact-right"></i></a>
+
+                        <a href="#" class="btn btn-primary px-5 my-1">Download</a>
+                    </div>
+
+                </div>
+
+                <!-- Right Content (Image) -->
+                <div class="col-lg-6 position-relative">
+                    <img src="images/image-2-hero.jpg" class="img-fluid hero-image" style="height: 1000px; max-width: 5000px;" alt="Dashboard">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container text-center my-5 custom-padding" style="padding-top: 400px;">
+            <p>Join 4,000+ companies already growing</p>
+            <div class="row justify-content-center align-items-center pt-3 mt-5">
+                <!-- Logo Columns -->
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="images/logo1.svg" class="img-fluid" alt="Company Logo">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="images/logo2.svg" class="img-fluid" alt="Company Logo">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="images/logo3.svg" class="img-fluid" alt="Company Logo">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="images/logo4.svg" class="img-fluid" alt="Company Logo">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="images/logo5.svg" class="img-fluid" alt="Company Logo">
+                </div>
+                <div class="col-6 col-md-2 mb-4">
+                    <img src="images/logo1.svg" class="img-fluid" alt="Company Logo">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container rounded-5">
+
+
+
+            <div class="text-center bg-white rounded-5">
+
+                <div class="card-body my-5">
+
+                    <div class="row d-flex align-items-stretch">
+
+                        <div class="col-sm-5 mb-sm-0">
+                            <div class="card border-0 h-100">
+                                <div class="card-body text-start d-flex justify-content-center align-items-center">
+                                    <h1 class="card-title  display-4 fw-normal display-sm-auto mb-5">Intuitive Dashboard
+                                        Customization</h1>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-7">
+                            <div class="card border-0 h-100">
+                                <div class="card-body ">
+                                    <img src="images/GridImage_1.png" class="w-100 w-md-94 w-sm-93 w-xs-94"
+                                        alt="Dashboard Customization">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--  -->
+        <div class="container rounded bg-light">
+            <div class="card text-center border-0">
+
+                <div class="card-body">
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="images/card blance1.png" class="card-img-top rounded-5" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title text-start ">Real-time Collaboration</h3>
+                                    <p class="card-text   text-start">Lorem ipsum dolor sit amet consectetur.
+                                        Molestie lorem arcu <br>
+                                        egestas varius donec.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 border-0">
+                                <img src="images/card balanc2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title text-start">Real-time Collaboration</h3>
+                                    <p class="card-text   text-start ">Lorem ipsum dolor sit amet consectetur.
+                                        Molestie lorem arcu <br>
+                                        egestas varius donec.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--  -->
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container py-5 text-center d-flex flex-column justify-content-center align-items-center">
+            <h1>Insights and Innovations</h1>
+            <p style="max-width: 500px;">Dive into a world of knowledge, trends, and industry updates on the Colourless
+                blog. Our curated
+                content covers a spectrum of topics.</p>
+
+
+            <div class="card text-center border-0 bg-light">
+                <div class="row my-4">
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                <img src="images/pills-icon-1.png" class="img-fluid" alt="Feature One"
+                                    style="max-width: 50px; height: auto;">
+                                <h2 class="h5 mt-3">Feature One</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                <img src="images/chat-icon-2.png" class="img-fluid" alt="Feature Two"
+                                    style="max-width: 50px; height: auto;">
+                                <h2 class="h5 mt-3">Feature Two</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                <img src="images/water-icon-3.png" class="img-fluid" alt="Feature Three"
+                                    style="max-width: 50px; height: auto;">
+                                <h2 class="h5 mt-3">Feature Three</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 mb-3 mb-sm-0">
+                        <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                <img src="images/keyboard_icon-4.png" class="img-fluid" alt="Feature Four"
+                                    style="max-width: 50px; height: auto;">
+                                <h2 class="h5 mt-3">Feature Four</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card text-center border-0">
+
+                <div class="card-body rounded-3 border">
+
+                    <div class="row my-3">
+
+                        <div class="col-md-6 mb-3">
+
+                            <div class="card border-0">
+                                <div class="card-body px-5">
+
+                                    <h1 class="card-title"> Boost your productivity.
+                                        Start using our app today
+                                    </h1>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="card border-0">
+                                <div class="card-body my-5">
+
+                                    <a href="#" class="btn btn-light px-5 my-1"
+                                        style="background-color: #f8f9fa !important;">Contact Us <i
+                                            class="bi bi-chevron-compact-right"></i></a>
+
+                                    <a href="#" class="btn btn-primary px-5 my-1">Try It Out</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="container py-5 mt-5">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-12 col-md-6">
+                        <h1 class="text-start">Tailor your workspace to fit your unique style</h1>
+                        <div class="text-start d-flex justify-content-start pt-5">
+                            <ul class="list-unstyled">
+                                <li class="mb-2">
+                                    <input class="form-check-input me-2" type="checkbox" checked disabled>
+                                    Lorem ipsum dolor sit amet, consectetur.
+                                </li>
+                                <li class="mb-2">
+                                    <input class="form-check-input me-2" type="checkbox" checked disabled>
+                                    Elementum purus ac fermentum.
+                                </li>
+                                <li class="mb-2">
+                                    <input class="form-check-input me-2" type="checkbox" checked disabled>
+                                    Maecenas massa massa id arcu blandit dignissim.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-12 col-md-6 pt-4 pt-md-5 mt-4 mt-md-5 text-start">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa id arcu
+                            blandit
+                            dignissim contum volutpat dolor fermentum, justo tempor.</p>
+                        <button class="btn btn-outline-secondary">Read More &gt;</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="images/image-2-hero.jpg" class="img-fluid rounded-5" alt="Dashboard">
+            </div>
+
+
+            <div class="container d-flex flex-column justify-content-center align-items-center text-center my-5 py-5 w-md-50"
+                style="margin-left: auto; margin-right: auto;">
+                <h1 style="max-width: 500px;">
+                    Flexible Plans, Tailored to Your Business Needs.
+                </h1>
+                <p style="max-width: 500px;">Choose the pricing plan that suits your business best. At Colourless, we
+                    believe in flexibility
+                    and
+                    scalability.</p>
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Enterprise Plan -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm p-4">
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <h5 class="card-title">Enterprise Plan</h5>
+                                    <p class="text-muted">Billed annually.</p>
+                                    <h2 class="display-4 fw-bold">$90 USD</h2>
+                                </div>
+                                <button class="btn btn-outline-secondary mt-3 w-100">Get started</button>
+                                <ul class="list-unstyled mt-4 text-start">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Access to all basic
+                                        features</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Basic reporting and
+                                        analytics</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Up to 10 individual
+                                        users
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>20GB individual
+                                        data
+                                        each
+                                        user</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Basic chat and
+                                        email
+                                        support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Business Plan -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm border-primary p-4">
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <h5 class="card-title">Business Plan</h5>
+                                    <p class="text-muted">Billed annually.</p>
+                                    <h2 class="display-4 fw-bold">$79 USD</h2>
+                                </div>
+                                <button class="btn btn-primary mt-3 w-100">Get started</button>
+                                <ul class="list-unstyled mt-4 text-start">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Access
+                                        to
+                                        all
+                                        basic features</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Basic
+                                        reporting and analytics</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Up to
+                                        10
+                                        individual users</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>20GB
+                                        individual data each user</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Basic
+                                        chat
+                                        and
+                                        email support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Basic Plan -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm p-4">
+                            <div class="card-body">
+                                <div class="text-start">
+                                    <h5 class="card-title">Basic Plan</h5>
+                                    <p class="text-muted">Billed annually.</p>
+                                    <h2 class="display-4 fw-bold">$49 USD</h2>
+                                </div>
+                                <button class="btn btn-outline-secondary mt-3 w-100">Get started</button>
+                                <ul class="list-unstyled mt-4 text-start">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Access to all basic
+                                        features</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Basic reporting and
+                                        analytics</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Up to 10 individual
+                                        users
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>20GB individual
+                                        data
+                                        each
+                                        user</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill me-2"></i>Basic chat and
+                                        email
+                                        support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-flex flex-column justify-content-center align-items-center py-5 mt-5">
+                <h2 class="text-center pt-5">What Our Clients Say</h2>
+                <p class="text-center text-muted" style="max-width: 500px;">See the impact Ethereal has made on
+                    businesses. Discover the
+                    success
+                    stories and testimonials from our satisfied clients.</p>
+
+                <!-- Carousel -->
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row text-center">
+                                <!-- Testimonial 1 -->
+                                <div class="col-12 col-md-4 mb-4">
+                                    <div class="card h-100 shadow-sm p-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/Testimonial1.jpg" class="rounded-circle me-3"
+                                                style="width: 50px; height: 50px;" alt="Client 1">
+                                            <div>
+                                                <h6 class="mb-0">Laura Johnson</h6>
+                                                <small class="text-muted">Eco Haven</small>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3">Customizable dashboard has been a game-changer for our small
+                                            business. It allows us to focus on what matters and adapt the interface
+                                            to
+                                            our
+                                            unique needs.</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonial 2 -->
+                                <div class="col-12 col-md-4 mb-4">
+                                    <div class="card h-100 shadow-sm p-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/Testimonial2.jpg" class="rounded-circle me-3"
+                                                style="width: 50px; height: 50px;" alt="Client 2">
+                                            <div>
+                                                <h6 class="mb-0">Emily Chen</h6>
+                                                <small class="text-muted">DevOps Specialist</small>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3">Ethereal revolutionized our inventory management. The
+                                            AI-driven
+                                            features and seamless integration capabilities have made a significant
+                                            impact on
+                                            our day-to-day operations. Highly recommend!</p>
+                                    </div>
+                                </div>
+                                <!-- Testimonial 3 -->
+                                <div class="col-12 col-md-4 mb-4">
+                                    <div class="card h-100 shadow-sm p-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/Testimonial3.jpg" class="rounded-circle me-3"
+                                                style="width: 50px; height: 50px;" alt="Client 3">
+                                            <div>
+                                                <h6 class="mb-0">Alex Rodriguez</h6>
+                                                <small class="text-muted">Tech Haven</small>
+                                            </div>
+                                        </div>
+                                        <p class="mt-3">Best decision we made for our retail business! 'Best of the
+                                            Best'
+                                            feature is a game-changer. Ethereal's commitment to excellence truly
+                                            stands
+                                            out.
+                                            Our efficiency has skyrocketed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more carousel items here if needed -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="row text-center">
+                    <!-- Testimonial 4 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm p-3">
+                            <div class="d-flex align-items-center">
+                                <img src="images/Testimonial2.jpg" class="rounded-circle me-3" alt="Client 4"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h6 class="mb-0">Emily Chen</h6>
+                                    <small class="text-muted">Style Emporium</small>
+                                </div>
+                            </div>
+                            <p class="mt-3">The AI Search feature is a lifesaver. It's like having a personal
+                                assistant
+                                for
+                                product searches. Ethereal has exceeded our expectations, making our marketing
+                                strategies
+                                more data-driven and effective.</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial 5 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm p-3">
+                            <div class="d-flex align-items-center">
+                                <img src="images/Testimonial1.jpg" class="rounded-circle me-3" alt="Client 5"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h6 class="mb-0">Michael Reynolds</h6>
+                                    <small class="text-muted">CFO, Mega Mart</small>
+                                </div>
+                            </div>
+                            <p class="mt-3">Secure Servers gave us peace of mind. Ethereal takes data security
+                                seriously
+                                and
+                                it reflects in the robustness of their servers. Our financial data is in safe hands.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Testimonial 6 -->
+                    <div class="col-12 col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm p-3">
+                            <div class="d-flex align-items-center">
+                                <img src="images/Testimonial2.jpg" class="rounded-circle me-3" alt="Client 6"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h6 class="mb-0">Michael Reynolds</h6>
+                                    <small class="text-muted">CFO, Mega Mart</small>
+                                </div>
+                            </div>
+                            <p class="mt-3">Secure Servers gave us peace of mind. Ethereal takes data security
+                                seriously
+                                and
+                                it reflects in the robustness of their servers. Our financial data is in safe hands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Header Section -->
+        <div class="d-flex flex-column justify-content-center align-items-center text-center py-5 mt-5 mx-auto">
+            <h2>Explore the Colourless Blog</h2>
+            <p style="max-width: 500px;">Dive into a world of knowledge, trends, and industry updates on the Colourless
+                blog. Our curated
+                content covers a spectrum of topics.</p>
+        </div>
+
+
+
+
+        <!-- Blog Posts Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card border-0 h-100">
+                        <img src="images/First_blog.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">April 8, 2023</p>
+                            <div class="row">
+                                <div class="col-md-10 col-10">
+                                    <h5 class="card-title">7 Ways to Improve Website<br> Usability And Accessibility
+                                    </h5>
+                                </div>
+                                <div class="col-md-2 col-2"><img src="images/Arrow-1.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                            <p class="card-text">Aut omnis repudiandae et, minima et cupiditate autem
+                                exercitationem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card border-0 h-100">
+                        <img src="images/Second_blog.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">April 3, 2023</p>
+                            <div class="row">
+                                <div class="col-md-10 col-10">
+                                    <h5 class="card-title">7 Ways to Improve Website<br> Usability And Accessibility
+                                    </h5>
+                                </div>
+                                <div class="col-md-2 col-2"><img src="images/Arrow-1.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                            <p class="card-text">Alt omnis rapudlandae et, minima et cupiditate autem
+                                exercitationem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card border-0 h-100">
+                        <img src="images/Third_blog.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">April 1, 2023</p>
+                            <div class="row">
+                                <div class="col-md-10 col-10">
+                                    <h5 class="card-title">7 Ways to Improve Website<br> Usability And Accessibility
+                                    </h5>
+                                </div>
+                                <div class="col-md-2 col-2"><img src="images/Arrow-1.png" class="img-fluid" alt="...">
+                                </div>
+                            </div>
+                            <p class="card-text">Cupiditate autem exercitationem recusandae voluptatem ut ullam
+                                doloribus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="container text-center py-5">
+            <h2>Frequently Asked Questions</h2>
+            <p>Everything you need to know</p>
+
+            <div class="accordion bg-white col-md-8 mx-auto mt-2" id="faqAccordion1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How does Colourless's AI Search work?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion1">
+                        <div class="accordion-body">
+                            Colourless's AI Search uses advanced algorithms to provide accurate and relevant search
+                            results.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion bg-white col-md-8 mx-auto mt-2" id="faqAccordion2">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Can I customize the dashboard to fit my business needs?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion2">
+                        <div class="accordion-body">
+                            Yes, the dashboard is fully customizable to meet your specific business requirements.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion bg-white col-md-8 mx-auto mt-2" id="faqAccordion3">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How secure are Colourless's servers?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion3">
+                        <div class="accordion-body">
+                            Our servers are highly secure, employing the latest security measures to protect your
+                            data.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion bg-white col-md-8 mx-auto mt-2" id="faqAccordion4">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What payment methods do you accept?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion4">
+                        <div class="accordion-body">
+                            We accept all major credit cards and PayPal for your convenience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion bg-white col-md-8 mx-auto mt-2" id="faqAccordion5">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Is there a free trial available?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion5">
+                        <div class="accordion-body">
+                            Yes, we offer a 14-day free trial with no credit card required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container py-5 rounded-4">
+            <div class="mx-auto bg-white col-12 rounded-4">
+                <div class="row justify-content-center mx-auto">
+                    <div class="col-md-12 col-12 text-start text-md-center mx-auto">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="display-3 fw-normal" style="max-width: 1000px;">Supercharge Your Workflow Today
+                                with Colourless!</h2>
+                            <p class="lead mb-4" style="max-width: 500px;">Discover the power of Colourless Dashboard
+                                and take control of your
+                                productivity.
+                                Streamline your tasks. Get started now!</p>
+                        </div>
+
+                        <div class="container full-height d-flex justify-content-center align-items-center">
+                            <form class="mb-5">
+                                <div class="mb-3 d-flex flex-column flex-lg-row me-2 align-items-stretch">
+                                    <div class="col-12 col-lg-8 me-2 mb-2"> <!-- 40% for input -->
+                                        <input type="email" class="form-control" placeholder="Your Email"
+                                            aria-label="Your Email">
+                                    </div>
+                                    <div class="col-12 col-lg-4"> <!-- 20% for button -->
+                                        <button class="btn btn-primary w-100" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="row position-relative overflow-hidden">
+                    <div class="col-md-12">
+                        <!-- First Image (Dashboard Preview) -->
+                        <img src="images/ABC.png" alt="Dashboard Preview" class="img-fluid rounded w-100"
+                            style="max-height: 500px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid bg-light py-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-4">
+                        <div class="d-flex flex-column mb-3">
+                            <div class="text-white p-2 me-2">
+                                <img src="images/Logo.png" alt="Logo" width="40" height="40"
+                                    class="d-inline-block align-text-top">
+                            </div>
+                            <h2 class="h4 mb-0">Transform Your World with Colourless</h2>
+                        </div>
+                        <p class="text-muted">Aliquam et tellus urna. Phasellus eget adipiscing elit. Mauris id nunc
+                            odio.
+                            Aliquam et tellus urna.</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-4 my-5">
+                                <h5 class="text-uppercase mb-4">Main Pages</h5>
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="text-decoration-none text-muted">Home (Sales)</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Home V1</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Home V2</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Home V3</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Features</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Blog V1</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Blog V2</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Blog V3</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-6 col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="text-decoration-none text-muted">Blog Post</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Contact V1</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Contact V2</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Contact V3</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Pricing</a></li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Pricing
+                                                    Single</a>
+                                            </li>
+                                            <li><a href="#" class="text-decoration-none text-muted">Checkout</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-5">
+                                <h5 class="text-uppercase mb-4">Social Media</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-decoration-none text-muted">Instagram</a></li>
+                                    <li><a href="#" class="text-decoration-none text-muted">Facebook</a></li>
+                                    <li><a href="#" class="text-decoration-none text-muted">LinkedIn</a></li>
+                                    <li><a href="#" class="text-decoration-none text-muted">Twitter</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 mt-5">
+                                <h5 class="text-uppercase mb-4">Webflow Stuff</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-decoration-none text-muted">Style Guide</a></li>
+                                    <li><a href="#" class="text-decoration-none text-muted">Licensing</a></li>
+                                    <li><a href="#" class="text-decoration-none text-muted">Change Log</a></li>
+                                    <li><a href="#" class="text-decoration-none text-muted">Instructions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <p class="small text-muted">CREATED BY <a href="#"
+                                class="text-decoration-none text-dark">OVERSIGHT</a></p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="small text-muted">POWERED BY <a href="#"
+                                class="text-decoration-none text-dark">WEBFLOW</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

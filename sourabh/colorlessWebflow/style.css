@@ -1,0 +1,39 @@
+/* Media Query for Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+    
+    /* Hero image styling for mobile */
+    .hero-image {
+        width: 100%; /* Make the image scale to the width of its container */
+        height: auto; /* Maintain aspect ratio and adjust height automatically */
+        max-height: 245px; /* Set a maximum height if needed */
+    }
+
+    /* Custom padding for elements */
+    .custom-padding {
+        padding-top: 100px !important; /* Override the top padding specifically for mobile */
+    }
+}
+
+.hero-image {
+    height: 1000px;
+    max-width: 5000px;
+}
+
+.custom-padding {
+    padding-top: 400px;
+}
+
+
+
+.firstsectrow {
+    height: 600px;
+    position: relative;
+}
+
+.fst-btn-bg-color {
+    background-color: #f8f9fa !important;
+}
+
+.secheading {
+    max-width: 500px;
+}
