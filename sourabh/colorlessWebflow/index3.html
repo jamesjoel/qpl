@@ -8,31 +8,13 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-   <style>
-    @media (max-width: 768px) {
-    
-    /* Hero image styling for mobile */
-    .hero-image {
-        width: 100%; /* Make the image scale to the width of its container */
-        height: auto; /* Maintain aspect ratio and adjust height automatically */
-        max-height: 245px; /* Set a maximum height if needed */
-    }
-
-    /* Custom padding for elements */
-    .custom-padding {
-        padding-top: 100px !important; /* Override the top padding specifically for mobile */
-    }
-}
-
-   </style>
-
-
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="bg-light">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light transparent-navbar sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/Logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
@@ -69,7 +51,7 @@
             </div>
         </nav>
         <div class="container py-5 ">
-            <div class="row align-items-center firstsectrow">
+            <div class="row align-items-center">
                 <div class="col-lg-6  text-start text-lg-start mb-4 mb-lg-0">
                     <span class="badge text-secondary border border-secondary mb-2">Colourless Update v0.1</span>
                     <h1 class="display-4 fw-normal me-3">
@@ -80,8 +62,7 @@
                         innovative dashboard brings simplicity and efficiency to your daily tasks.
                     </p>
                     <div class="card-body my-5 text-start d-flex flex-column flex-md-row gap-2 ">
-                        <a href="#" class="btn btn-light  px-5 my-1 border"
-                            style="background-color: #f8f9fa !important;">Read More <i
+                        <a href="#" class="btn btn-light  px-5 my-1 border fst-btn-bg-color">Read More <i
                                 class="bi bi-chevron-compact-right"></i></a>
 
                         <a href="#" class="btn btn-primary px-5 my-1">Download</a>
@@ -91,7 +72,7 @@
 
                 <!-- Right Content (Image) -->
                 <div class="col-lg-6 position-relative">
-                    <img src="images/image-2-hero.jpg" class="img-fluid hero-image" style="height: 1000px; max-width: 5000px;" alt="Dashboard">
+                    <img src="images/image-2-hero.jpg" class="img-fluid hero-image" alt="Dashboard">
                 </div>
             </div>
         </div>
@@ -100,7 +81,7 @@
 
 
 
-        <div class="container text-center my-5 custom-padding" style="padding-top: 400px;">
+        <div class="container text-center custom-padding">
             <p>Join 4,000+ companies already growing</p>
             <div class="row justify-content-center align-items-center pt-3 mt-5">
                 <!-- Logo Columns -->
@@ -221,9 +202,10 @@
 
         <div class="container py-5 text-center d-flex flex-column justify-content-center align-items-center">
             <h1>Insights and Innovations</h1>
-            <p style="max-width: 500px;">Dive into a world of knowledge, trends, and industry updates on the Colourless
+            <p class="subheading">Dive into a world of knowledge, trends, and industry updates on the Colourless
                 blog. Our curated
-                content covers a spectrum of topics.</p>
+                content covers a spectrum of topics.
+            </p>
 
 
             <div class="card text-center border-0 bg-light">
@@ -231,8 +213,7 @@
                     <div class="col-sm-3 mb-3 mb-sm-0">
                         <div class="card border-0 bg-light">
                             <div class="card-body">
-                                <img src="images/pills-icon-1.png" class="img-fluid" alt="Feature One"
-                                    style="max-width: 50px; height: auto;">
+                                <img src="images/pills-icon-1.png" class="img-fluid customimg" alt="Feature One">
                                 <h2 class="h5 mt-3">Feature One</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
                             </div>
@@ -242,8 +223,7 @@
                     <div class="col-sm-3 mb-3 mb-sm-0">
                         <div class="card border-0 bg-light">
                             <div class="card-body">
-                                <img src="images/chat-icon-2.png" class="img-fluid" alt="Feature Two"
-                                    style="max-width: 50px; height: auto;">
+                                <img src="images/chat-icon-2.png" class="img-fluid customimg" alt="Feature Two">
                                 <h2 class="h5 mt-3">Feature Two</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
                             </div>
@@ -253,8 +233,7 @@
                     <div class="col-sm-3 mb-3 mb-sm-0">
                         <div class="card border-0 bg-light">
                             <div class="card-body">
-                                <img src="images/water-icon-3.png" class="img-fluid" alt="Feature Three"
-                                    style="max-width: 50px; height: auto;">
+                                <img src="images/water-icon-3.png" class="img-fluid customimg" alt="Feature Three">
                                 <h2 class="h5 mt-3">Feature Three</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
                             </div>
@@ -264,8 +243,7 @@
                     <div class="col-sm-3 mb-3 mb-sm-0">
                         <div class="card border-0 bg-light">
                             <div class="card-body">
-                                <img src="images/keyboard_icon-4.png" class="img-fluid" alt="Feature Four"
-                                    style="max-width: 50px; height: auto;">
+                                <img src="images/keyboard_icon-4.png" class="img-fluid customimg" alt="Feature Four">
                                 <h2 class="h5 mt-3">Feature Four</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa massa.</p>
                             </div>
@@ -303,8 +281,7 @@
                             <div class="card border-0">
                                 <div class="card-body my-5">
 
-                                    <a href="#" class="btn btn-light px-5 my-1"
-                                        style="background-color: #f8f9fa !important;">Contact Us <i
+                                    <a href="#" class="btn btn-light px-5 my-1 fst-btn-bg-color">Contact Us <i
                                             class="bi bi-chevron-compact-right"></i></a>
 
                                     <a href="#" class="btn btn-primary px-5 my-1">Try It Out</a>
@@ -327,7 +304,7 @@
                         <div class="text-start d-flex justify-content-start pt-5">
                             <ul class="list-unstyled">
                                 <li class="mb-2">
-                                    <input class="form-check-input me-2" type="checkbox" checked disabled>
+                                    <input class="form-check-input p-2 me-2 bg-secondary text-danger" type="checkbox" checked disabled>
                                     Lorem ipsum dolor sit amet, consectetur.
                                 </li>
                                 <li class="mb-2">
@@ -357,12 +334,12 @@
             </div>
 
 
-            <div class="container d-flex flex-column justify-content-center align-items-center text-center my-5 py-5 w-md-50"
-                style="margin-left: auto; margin-right: auto;">
-                <h1 style="max-width: 500px;">
+            <div class="container d-flex flex-column justify-content-center ms-auto me-auto align-items-center text-center my-5 py-5 w-md-50">
+               
+                <h1>
                     Flexible Plans, Tailored to Your Business Needs.
                 </h1>
-                <p style="max-width: 500px;">Choose the pricing plan that suits your business best. At Colourless, we
+                <p class="subheading">Choose the pricing plan that suits your business best. At Colourless, we
                     believe in flexibility
                     and
                     scalability.</p>
@@ -465,7 +442,7 @@
 
             <div class="container d-flex flex-column justify-content-center align-items-center py-5 mt-5">
                 <h2 class="text-center pt-5">What Our Clients Say</h2>
-                <p class="text-center text-muted" style="max-width: 500px;">See the impact Ethereal has made on
+                <p class="text-center text-muted subheading">See the impact Ethereal has made on
                     businesses. Discover the
                     success
                     stories and testimonials from our satisfied clients.</p>
@@ -479,8 +456,7 @@
                                 <div class="col-12 col-md-4 mb-4">
                                     <div class="card h-100 shadow-sm p-3">
                                         <div class="d-flex align-items-center">
-                                            <img src="images/Testimonial1.jpg" class="rounded-circle me-3"
-                                                style="width: 50px; height: 50px;" alt="Client 1">
+                                            <img src="images/Testimonial1.jpg" class="rounded-circle me-3 tmimg" alt="Client 1">
                                             <div>
                                                 <h6 class="mb-0">Laura Johnson</h6>
                                                 <small class="text-muted">Eco Haven</small>
@@ -497,8 +473,7 @@
                                 <div class="col-12 col-md-4 mb-4">
                                     <div class="card h-100 shadow-sm p-3">
                                         <div class="d-flex align-items-center">
-                                            <img src="images/Testimonial2.jpg" class="rounded-circle me-3"
-                                                style="width: 50px; height: 50px;" alt="Client 2">
+                                            <img src="images/Testimonial2.jpg" class="rounded-circle me-3 tmimg" alt="Client 2">
                                             <div>
                                                 <h6 class="mb-0">Emily Chen</h6>
                                                 <small class="text-muted">DevOps Specialist</small>
@@ -515,8 +490,7 @@
                                 <div class="col-12 col-md-4 mb-4">
                                     <div class="card h-100 shadow-sm p-3">
                                         <div class="d-flex align-items-center">
-                                            <img src="images/Testimonial3.jpg" class="rounded-circle me-3"
-                                                style="width: 50px; height: 50px;" alt="Client 3">
+                                            <img src="images/Testimonial3.jpg" class="rounded-circle me-3 tmimg" alt="Client 3">
                                             <div>
                                                 <h6 class="mb-0">Alex Rodriguez</h6>
                                                 <small class="text-muted">Tech Haven</small>
@@ -554,8 +528,7 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card h-100 shadow-sm p-3">
                             <div class="d-flex align-items-center">
-                                <img src="images/Testimonial2.jpg" class="rounded-circle me-3" alt="Client 4"
-                                    style="width: 50px; height: 50px;">
+                                <img src="images/Testimonial2.jpg" class="rounded-circle me-3 tmimg" alt="Client 4">
                                 <div>
                                     <h6 class="mb-0">Emily Chen</h6>
                                     <small class="text-muted">Style Emporium</small>
@@ -573,8 +546,7 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card h-100 shadow-sm p-3">
                             <div class="d-flex align-items-center">
-                                <img src="images/Testimonial1.jpg" class="rounded-circle me-3" alt="Client 5"
-                                    style="width: 50px; height: 50px;">
+                                <img src="images/Testimonial1.jpg" class="rounded-circle me-3 tmimg" alt="Client 5">
                                 <div>
                                     <h6 class="mb-0">Michael Reynolds</h6>
                                     <small class="text-muted">CFO, Mega Mart</small>
@@ -591,8 +563,7 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card h-100 shadow-sm p-3">
                             <div class="d-flex align-items-center">
-                                <img src="images/Testimonial2.jpg" class="rounded-circle me-3" alt="Client 6"
-                                    style="width: 50px; height: 50px;">
+                                <img src="images/Testimonial2.jpg" class="rounded-circle me-3 tmimg" alt="Client 6">
                                 <div>
                                     <h6 class="mb-0">Michael Reynolds</h6>
                                     <small class="text-muted">CFO, Mega Mart</small>
@@ -623,7 +594,7 @@
         <!-- Header Section -->
         <div class="d-flex flex-column justify-content-center align-items-center text-center py-5 mt-5 mx-auto">
             <h2>Explore the Colourless Blog</h2>
-            <p style="max-width: 500px;">Dive into a world of knowledge, trends, and industry updates on the Colourless
+            <p class="subheading">Dive into a world of knowledge, trends, and industry updates on the Colourless
                 blog. Our curated
                 content covers a spectrum of topics.</p>
         </div>
@@ -794,9 +765,9 @@
                 <div class="row justify-content-center mx-auto">
                     <div class="col-md-12 col-12 text-start text-md-center mx-auto">
                         <div class="d-flex flex-column justify-content-center align-items-center">
-                            <h2 class="display-3 fw-normal" style="max-width: 1000px;">Supercharge Your Workflow Today
+                            <h2 class="display-3 fw-normal subheading">Supercharge Your Workflow Today
                                 with Colourless!</h2>
-                            <p class="lead mb-4" style="max-width: 500px;">Discover the power of Colourless Dashboard
+                            <p class="lead mb-4 subheading">Discover the power of Colourless Dashboard
                                 and take control of your
                                 productivity.
                                 Streamline your tasks. Get started now!</p>
@@ -823,8 +794,7 @@
                 <div class="row position-relative overflow-hidden">
                     <div class="col-md-12">
                         <!-- First Image (Dashboard Preview) -->
-                        <img src="images/ABC.png" alt="Dashboard Preview" class="img-fluid rounded w-100"
-                            style="max-height: 500px; object-fit: cover;">
+                        <img src="images/ABC.png" alt="Dashboard Preview" class="img-fluid rounded w-100 imgct">
                     </div>
                 </div>
             </div>

@@ -10,30 +10,41 @@
 
     /* Custom padding for elements */
     .custom-padding {
-        padding-top: 100px !important; /* Override the top padding specifically for mobile */
+        padding-top: 100px; /* Override the top padding specifically for mobile */
     }
+}
+
+.fst-btn-bg-color {
+    background-color: #f8f9fa;
 }
 
 .hero-image {
     height: 1000px;
     max-width: 5000px;
+
 }
 
-.custom-padding {
-    padding-top: 400px;
-}
-
-
-
-.firstsectrow {
-    height: 600px;
-    position: relative;
-}
-
-.fst-btn-bg-color {
-    background-color: #f8f9fa !important;
-}
-
-.secheading {
+.subheading {
     max-width: 500px;
-}
+   
+  }
+
+  .customimg {
+      max-width: 50px;
+      /* Restricts the maximum width to 50px */
+      height: auto;
+      /* Keeps the aspect ratio intact */
+  }
+
+  .tmimg {
+
+      max-width: 50px;
+      height: 50px;
+  }
+  
+  imgct {
+    max-height: 500px; 
+    object-fit: cover; 
+    
+  }
+  
